@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Property Listing Styles */
+  .property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .property-list .property {
+    width: 32%;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 2px #ccc;
+    transition: all 0.2s ease-in-out;
+  }
+  .property-list .property img {
+    width: 100%;
+  }
+  .property-list .property .property-details {
+    padding: 10px;
+  }
+  .property-list .property .property-details h2 {
+    margin: 0;
+  }
+  .property-list .property .property-details p {
+    margin: 0;
+  }
+  
+  /* Property Hover Styles */
+  .property-list .property:hover {
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 4px #ccc;
+  }
+  .property-list .property:hover .property-details h2 {
+    color: #3f51b5;
+  }
+  
+  /* Pagination Styles */
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+  .pagination a {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  .pagination a:hover, .pagination .active {
+    background-color: #333;
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Property Listing Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Property Listing Website</h1>
+  </header>
+  <div class="search-bar">
+    <form>
+      <input type="text" placeholder="Search for properties...">
+      <select>
+        <option value="location">Location</option>
+        <option value="bedrooms">Bedrooms</option>
+        <option value="bathrooms">Bathrooms</option>
+        <option value="price">Price</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+  </div>
+  <div class="property-list">
+    <div class="property">
+      <img src= 'https://w.wallhaven.cc/full/zy/wallhaven-zyxvqy.jpg?apikey=tzkAV0F0fOVpjUV5VrfZt4fPnzO8CBne' alt="property1">
+      <div class="property-details">
+        <h2>Property 1</h2>
+        <p>3 Bedrooms, 2 Bathrooms, 1500 sq ft</p>
+        <p>Location: San Francisco, CA</p>
+        <p>Price: $500,000</p>
+        <button class="view-details-btn">View Details</button>
+        <button class="contact-owner-btn">Contact Owner</button>
+      </div>
+    </div>
+    <div class="property">
+      <img src='https://w.wallhaven.cc/full/kx/wallhaven-kx36mq.png' alt="property2">
+      <div class="property-details">
+        <h2>Property 2</h2>
+        <p>2 Bedrooms, 1 Bathroom, 1000 sq ft</p>
+        <p>Location: Los Angeles, CA</p>
+        <p>Price: $300,000</p>
+        <button class="view-details-btn">View Details</button>
+        <button class="contact-owner-btn">Contact Owner</button>
+      </div>
+    </div>
+    <div class="property">
+      <img src="https://w.wallhaven.cc/full/6o/wallhaven-6oxgp6.jpg" alt="property3">
+      <div class="property-details">
+        <h2>Property 3</h2>
+        <p>4 Bedrooms, 3 Bathrooms, 2000 sq ft</p>
+        <p>Location: New York, NY</p>
+        <p>Price: $800,000</p>
+        <button class=""view-details-btn">View Details</button>
+        <button class="contact-owner-btn">Contact Owner</button>
+      </div>
+    </div>
+    <!-- more properties -->
+  </div>
+  <div class="pagination">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <!-- more pagination links -->
+  </div>
+  <script src="Myapp.js"></script>
+</body>
+</html>
