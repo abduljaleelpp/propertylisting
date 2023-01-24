@@ -10,6 +10,7 @@ form.addEventListener('submit', async event => {
         const filterType = select.value;
         const searchValue = input.value.toLowerCase();
         const data = { filterType, searchValue };
+        console.log(data.filterType,data.searchValue);
 
         // Send a POST request to the server with the search criteria
         const response = await fetch('/properties', {
